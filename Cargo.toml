@@ -1,0 +1,14 @@
+[package]
+name = "window-toggler"
+version = "0.1.0"
+authors = ["fc1943s <fc1943s@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pathsearch = "0.2.0"
+toml = "0.5.6"
+serde = { version = "1.0.112", features = ["derive"] }
+
+hotkey = "0.3.1"
+windows-win = "2.4.0"
+winapi = "0.3.8"
